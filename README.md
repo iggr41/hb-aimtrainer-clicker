@@ -1,6 +1,12 @@
 # hb-aimtrainer-clicker
 target auto-clicker aim assist for human benchmark's aim trainer test (https://humanbenchmark.com/tests/aim)
 
+
+# Observations
+in the test, speed is more important than precision for the program
+you can adjust the variable "conf" between 0 and 1 to make it click faster but less precisely
+default is 0.26
+
 # Requirements
 opencv-python >= 4.6.0.66\
 Pillow >= 9.2.0\
